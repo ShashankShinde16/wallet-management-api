@@ -1,7 +1,4 @@
-// controllers/expensesController.js
-
 const Expense = require('../models/Expense');
-const mongoose = require('mongoose');
 
 const addExpense = async (req, res) => {
   try {
